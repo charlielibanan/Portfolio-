@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="menu-toggle">☰</div>
+
+<nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+   <a href="#background">Education & Experience</a>
+   
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+
+        <img src="halimaw nyumenye.png" alt="Charlie" class="profile-pic">
+
+        <h1>Hi, I'm <span style="color: green;">Charlie Libanan</span> </h1>
+
+        <h1>
+            <span style="color:#c084fc;">BSIT</span>
+            <span style="color:white;"> Student & </span>
+            <span style="color:green;">Web Developer</span>
+        </h1>
+
+        <p class="about-text">
+            I am an Information Technology student who is passionate about
+            web development, programming, and technology.
+            I enjoy creating responsive websites and continuously
+            learning new skills to improve my knowledge in the IT field.
+        </p>
+
+        <a href="#contact" class="btn btn2">Hire Me</a>
+        <a href="#about" class="btn explore-btn">View My Work</a>
+
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+
+    <h1>Who am I?</h1>
+
+    <p>
+        I am an Information Technology student who is passionate
+        about <span style="color: green;">web development, programming, and technology</span>.
+        I enjoy creating responsive websites and continuously
+        learning new skills to improve my knowledge in the IT field.
+    </p>
+</section>
+
+<section class="skills" id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill-category">
+        <h3>LANGUAGES</h3>
+
+        <div class="skill-item"><i class="fab fa-html5"></i><span>HTML</span></div>
+        <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+        <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+        <div class="skill-item"><i class="fas fa-code"></i><span>C++</span></div>
+        <div class="skill-item"><i class="fas fa-laptop-code"></i><span>C#</span></div>
+    </div>
+
+    <div class="skill-category">
+        <h3>TOOLS</h3>
+
+        <div class="skill-item">
+            <i class="fas fa-code"></i>
+            <span>VS Code</span>
+        </div>
+    </div>
+
+    <div class="skill-category">
+        <h3>OTHER</h3>
+
+        <div class="skill-item">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Responsive Design</span>
+        </div>
+
+        <div class="skill-item">
+            <i class="fas fa-lightbulb"></i>
+            <span>Problem Solving</span>
+        </div>
+    </div>
+</section>
+    
+    <section class="projects" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Personal responsive portfolio website.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Student Registration Form</h3>
+        <p>HTML and CSS registration form project.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>E-Commerce Catalog</h3>
+        <p>Product catalog webpage design.</p>
+    </div>
+</section>
+
+<section class="background" id="background">
+    <h2>Education & Experience</h2>
+
+    <div class="edu-box">
+        <h3>🎓 Education</h3>
+        <p><strong>Bachelor of Science in Information Technology</strong></p>
+        <p>Eastern Samar State University</p>
+        <p>2026 - Present </p>
+        Highschool - Humanities and Social Sciences in San Julian National Highschool 
+        Elementary - San Julian Central Elementary School</p>
+    </div>
+
+    <div class="exp-box">
+        <h3>💼 Experience</h3>
+
+        <p><strong>Portfolio Website</strong></p>
+        <p>Developed a responsive personal portfolio using HTML and CSS.</p>
+
+        <p><strong>Student Registration Form</strong></p>
+        <p>Created a registration form with validation and responsive design.</p>
+
+    </div>
+</section>
+
+
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+  <div class="contact-links">
+
+  
+  <a href="mailto:charlielibanan8@gmail.com">
+    <i class="fas fa-envelope"></i>
+    <span>Email</span>
+</a>
+
+<a href="tel:09813738102">
+    <i class="fas fa-phone"></i>
+    <span>Phone</span>
+</a>
+
+<a href="https://facebook.com/" target="_blank">
+    <i class="fab fa-facebook"></i>
+    <span>Facebook</span>
+</a>
+
+<a href="https://github.com/" target="_blank">
+    <i class="fab fa-github"></i>
+    <span>GitHub</span>
+</a>
+
+</section>
+
+<footer>
+    <p> Thank You Po! </p>
+</footer>
+
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('nav');
+
+menuToggle.addEventListener('click', () => {
+    nav.style.display =
+    nav.style.display === 'flex' ? 'none' : 'flex';
+});
+</script>
+
+</body>
+</html>
